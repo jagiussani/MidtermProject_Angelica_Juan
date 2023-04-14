@@ -1,7 +1,7 @@
 # MidtermProject_Angelica_Juan
 
 Members of the Group:
-Angélica Blanco
+Angélica Blanco :)
 Juan A. Giussani
 
 Goal of the project:
