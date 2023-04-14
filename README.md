@@ -39,4 +39,6 @@ Day 4:
 Polishing the presentation
 	Eventually correcting errors
 	Debugging 
-![image](https://user-images.githubusercontent.com/71353228/232085023-aa2cbab1-a933-43b5-af30-a00a97c1edd5.png)
+	
+
+
