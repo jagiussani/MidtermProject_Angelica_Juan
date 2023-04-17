@@ -16,6 +16,7 @@ Predict the impact of different variables on the sleep efficiency (of our sample
 **Plan**
 
 Day 1:
+
 Clean data.
 
 	- Assess what to do with the NaNs
@@ -35,13 +36,30 @@ Explore data & creation of model.
 	- Model Evaluation
 	- Improve Model (eventually changing the scale, removing variables, etc.)
 
+Clean data:
+	Assess what to do with the NaNs,
+	Changing data types,
+	Converting time stamps into time-bins,
+	Converting ‘Gender’ values into dummy variables
+Day 2:
+Explore data & creation of model:
+	Checking data distribution,
+	Remove outliers,
+	Train/Test split data,
+	Transform,
+	Run linear regression,
+	Interpretation of results,
+	Model Evaluation,
+	Improve Model (eventually changing the scale, removing variables, etc.)
+
+
 Day 3: 
 Presentation & Visualization
 	
 
 Day 4: 
-Polishing the presentation
-	Eventually correcting errors
+Polishing the presentation:
+	Eventually correcting errors,
 	Debugging 
 	
 
