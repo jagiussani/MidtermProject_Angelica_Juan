@@ -8,10 +8,10 @@
 Predict the impact of different variables on the sleep efficiency (of our sample)
 
 **Description of dataset**
-Name: Sleep Efficiency Dataset
-Source: The dataset provided was collected as part of a study conducted in the UK by a research team from The University of Oxfordshire. Downloaded from Kaggle.com
-Link: sleep-efficiency
-Features: 15 columns & 452 rows
+- Name: Sleep Efficiency Dataset
+- Source: The dataset provided was collected as part of a study conducted in the UK by a research team from The University of Oxfordshire. Downloaded from Kaggle.com
+- Link: sleep-efficiency
+- Features: 15 columns & 452 rows
 
 **Plan**
 
