@@ -21,6 +21,7 @@ The dataset contains information about a group of test subjects and their sleep 
 - The "Awakenings" feature records the number of times each subject wakes up during the night. Additionally, the dataset includes information about each subject's caffeine and alcohol consumption in the 24 hours prior to bedtime, their smoking status, and their exercise frequency.
     - caffeine_consumption: the amount of caffeine consumed in the 24 hours prior to bedtime (in mg)
     - alcohol_consumption: the amount of alcohol consumed in the 24 hours prior to bedtime (in oz)
+    - exercise frequency: the number of times the test subject exercises each week
 
 **Plan**
 
