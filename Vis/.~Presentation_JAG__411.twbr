@@ -1,0 +1,1209 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='sleepy_dataset_cleaned' inline='true' name='federated.1k139xd0p9ucsz19qbfkq0wb55nr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='sleepy_dataset_cleaned' name='textscan.09dmgrw08z5son1849h9z1ls25c0'>
+            <connection class='textscan' directory='Data/MidtermProject_Angelica_Juan' filename='sleepy_dataset_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.09dmgrw08z5son1849h9z1ls25c0' name='sleepy_dataset_cleaned.csv' table='[sleepy_dataset_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='real' name='sleep_duration' ordinal='1' />
+            <column datatype='real' name='sleep_efficiency' ordinal='2' />
+            <column datatype='integer' name='rem_sleep_percentage' ordinal='3' />
+            <column datatype='integer' name='deep_sleep_percentage' ordinal='4' />
+            <column datatype='integer' name='light_sleep_percentage' ordinal='5' />
+            <column datatype='real' name='awakenings' ordinal='6' />
+            <column datatype='real' name='caffeine_consumption' ordinal='7' />
+            <column datatype='real' name='alcohol_consumption' ordinal='8' />
+            <column datatype='real' name='exercise_frequency' ordinal='9' />
+            <column datatype='integer' name='month' ordinal='10' />
+            <column datatype='integer' name='gender_Male' ordinal='11' />
+            <column datatype='integer' name='smoking_status_Yes' ordinal='12' />
+            <column datatype='real' name='bedtime_hours' ordinal='13' />
+            <column datatype='real' name='wakeup_time_hours' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.09dmgrw08z5son1849h9z1ls25c0' name='sleepy_dataset_cleaned.csv' table='[sleepy_dataset_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='real' name='sleep_duration' ordinal='1' />
+            <column datatype='real' name='sleep_efficiency' ordinal='2' />
+            <column datatype='integer' name='rem_sleep_percentage' ordinal='3' />
+            <column datatype='integer' name='deep_sleep_percentage' ordinal='4' />
+            <column datatype='integer' name='light_sleep_percentage' ordinal='5' />
+            <column datatype='real' name='awakenings' ordinal='6' />
+            <column datatype='real' name='caffeine_consumption' ordinal='7' />
+            <column datatype='real' name='alcohol_consumption' ordinal='8' />
+            <column datatype='real' name='exercise_frequency' ordinal='9' />
+            <column datatype='integer' name='month' ordinal='10' />
+            <column datatype='integer' name='gender_Male' ordinal='11' />
+            <column datatype='integer' name='smoking_status_Yes' ordinal='12' />
+            <column datatype='real' name='bedtime_hours' ordinal='13' />
+            <column datatype='real' name='wakeup_time_hours' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sleep_duration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sleep_duration]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>sleep_duration</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sleep_efficiency</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sleep_efficiency]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>sleep_efficiency</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rem_sleep_percentage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rem_sleep_percentage]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>rem_sleep_percentage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deep_sleep_percentage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[deep_sleep_percentage]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>deep_sleep_percentage</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_sleep_percentage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[light_sleep_percentage]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>light_sleep_percentage</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>awakenings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[awakenings]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>awakenings</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caffeine_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[caffeine_consumption]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>caffeine_consumption</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alcohol_consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[alcohol_consumption]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>alcohol_consumption</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>exercise_frequency</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[exercise_frequency]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>exercise_frequency</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender_Male</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gender_Male]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>gender_Male</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoking_status_Yes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[smoking_status_Yes]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>smoking_status_Yes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bedtime_hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bedtime_hours]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>bedtime_hours</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wakeup_time_hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wakeup_time_hours]</local-name>
+            <parent-name>[sleepy_dataset_cleaned.csv]</parent-name>
+            <remote-alias>wakeup_time_hours</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Alcohol Consumption (bin)' datatype='integer' name='[Alcohol Consumption (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[alcohol_consumption]' peg='0' size='1' />
+      </column>
+      <column aggregation='Sum' caption='Alcohol Consumption (copy)' datatype='real' name='[Alcohol Consumption (copy)_683773104335720449]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[alcohol_consumption]' />
+      </column>
+      <column aggregation='None' caption='Caffeine Consumption (bin)' datatype='integer' name='[Caffeine Consumption (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[caffeine_consumption]' peg='0' size='1' />
+      </column>
+      <column aggregation='None' caption='Sleep Efficiency (copy) (bin)' datatype='integer' name='[Sleep Efficiency (copy) (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-2' formula='[Sleep Efficiency (copy)_683773104335683584]' peg='0' size='0.05' />
+      </column>
+      <column aggregation='Sum' caption='Sleep Efficiency (copy)' datatype='real' name='[Sleep Efficiency (copy)_683773104335683584]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[sleep_efficiency]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='sleepy_dataset_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Alcohol Consumption' datatype='real' name='[alcohol_consumption]' role='measure' type='quantitative' />
+      <column caption='Awakenings' datatype='real' name='[awakenings]' role='measure' type='quantitative' />
+      <column caption='Bedtime Hours' datatype='real' name='[bedtime_hours]' role='measure' type='quantitative' />
+      <column caption='Caffeine Consumption' datatype='real' name='[caffeine_consumption]' role='measure' type='quantitative' />
+      <column caption='Deep Sleep Percentage' datatype='integer' name='[deep_sleep_percentage]' role='measure' type='quantitative' />
+      <column caption='Exercise Frequency' datatype='real' name='[exercise_frequency]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='gender Male' datatype='integer' name='[gender_Male]' role='dimension' type='ordinal' />
+      <column caption='Light Sleep Percentage' datatype='integer' name='[light_sleep_percentage]' role='measure' type='quantitative' />
+      <column caption='Month' datatype='integer' name='[month]' role='dimension' type='quantitative' />
+      <column caption='Rem Sleep Percentage' datatype='integer' name='[rem_sleep_percentage]' role='measure' type='quantitative' />
+      <column caption='Sleep Duration' datatype='real' name='[sleep_duration]' role='measure' type='quantitative' />
+      <column caption='Sleep Efficiency' datatype='real' name='[sleep_efficiency]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='smoking status Yes' datatype='integer' name='[smoking_status_Yes]' role='dimension' type='ordinal' />
+      <column caption='Wakeup Time Hours' datatype='real' name='[wakeup_time_hours]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[alcohol_consumption]' derivation='Avg' name='[avg:alcohol_consumption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[caffeine_consumption]' derivation='Avg' name='[avg:caffeine_consumption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[deep_sleep_percentage]' derivation='Avg' name='[avg:deep_sleep_percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[exercise_frequency]' derivation='Avg' name='[avg:exercise_frequency:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sleep_efficiency]' derivation='Avg' name='[avg:sleep_efficiency:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[alcohol_consumption]' derivation='Count' name='[cnt:alcohol_consumption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[caffeine_consumption]' derivation='Count' name='[cnt:caffeine_consumption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sleep_efficiency]' derivation='Count' name='[cnt:sleep_efficiency:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[deep_sleep_percentage]' derivation='CountD' name='[ctd:deep_sleep_percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sleep_efficiency]' derivation='CountD' name='[ctd:sleep_efficiency:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Alcohol Consumption (bin)]' derivation='None' name='[none:Alcohol Consumption (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Caffeine Consumption (bin)]' derivation='None' name='[none:Caffeine Consumption (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[alcohol_consumption]' derivation='Sum' name='[sum:alcohol_consumption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[awakenings]' derivation='Sum' name='[sum:awakenings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bedtime_hours]' derivation='Sum' name='[sum:bedtime_hours:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[caffeine_consumption]' derivation='Sum' name='[sum:caffeine_consumption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[deep_sleep_percentage]' derivation='Sum' name='[sum:deep_sleep_percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[exercise_frequency]' derivation='Sum' name='[sum:exercise_frequency:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[gender_Male]' derivation='Sum' name='[sum:gender_Male:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_sleep_percentage]' derivation='Sum' name='[sum:light_sleep_percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[rem_sleep_percentage]' derivation='Sum' name='[sum:rem_sleep_percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sleep_duration]' derivation='Sum' name='[sum:sleep_duration:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sleep_efficiency]' derivation='Sum' name='[sum:sleep_efficiency:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[smoking_status_Yes]' derivation='Sum' name='[sum:smoking_status_Yes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wakeup_time_hours]' derivation='Sum' name='[sum:wakeup_time_hours:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Alcohol Consumption (bin),Caffeine Consumption (bin))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Alcohol Consumption (bin):ok]' />
+          <groupfilter function='level-members' level='[none:Caffeine Consumption (bin):ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:light_sleep_percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:alcohol_consumption:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:sleep_efficiency:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[cnt:alcohol_consumption:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[cnt:sleep_efficiency:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[ctd:sleep_efficiency:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:alcohol_consumption:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:sleep_duration:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:smoking_status_Yes:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:awakenings:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:sleep_efficiency:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[__tableau_internal_object_id__].[cnt:sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:rem_sleep_percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:bedtime_hours:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:wakeup_time_hours:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:exercise_frequency:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:exercise_frequency:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:deep_sleep_percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[ctd:deep_sleep_percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:deep_sleep_percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:caffeine_consumption:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[cnt:caffeine_consumption:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:caffeine_consumption:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:gender_Male:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:age:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='sleepy_dataset_cleaned.csv' id='sleepy_dataset_cleaned.csv_99BFC8433052435AA9995BE571D0A976'>
+            <properties context=''>
+              <relation connection='textscan.09dmgrw08z5son1849h9z1ls25c0' name='sleepy_dataset_cleaned.csv' table='[sleepy_dataset_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='real' name='sleep_duration' ordinal='1' />
+                  <column datatype='real' name='sleep_efficiency' ordinal='2' />
+                  <column datatype='integer' name='rem_sleep_percentage' ordinal='3' />
+                  <column datatype='integer' name='deep_sleep_percentage' ordinal='4' />
+                  <column datatype='integer' name='light_sleep_percentage' ordinal='5' />
+                  <column datatype='real' name='awakenings' ordinal='6' />
+                  <column datatype='real' name='caffeine_consumption' ordinal='7' />
+                  <column datatype='real' name='alcohol_consumption' ordinal='8' />
+                  <column datatype='real' name='exercise_frequency' ordinal='9' />
+                  <column datatype='integer' name='month' ordinal='10' />
+                  <column datatype='integer' name='gender_Male' ordinal='11' />
+                  <column datatype='integer' name='smoking_status_Yes' ordinal='12' />
+                  <column datatype='real' name='bedtime_hours' ordinal='13' />
+                  <column datatype='real' name='wakeup_time_hours' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (Correlation_Matrix_sleepy)' inline='true' name='federated.199ufkt0qpkx4i1gqzy4q01t54yp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Correlation_Matrix_sleepy' name='excel-direct.078g921191du6x1ebzbti00zxa7m'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/MidtermProject_Angelica_Juan/Correlation_Matrix_sleepy.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Age]' />
+            <value name='[Alcohol Consumption]' />
+            <value name='[Awakenings]' />
+            <value name='[Bedtime Hours]' />
+            <value name='[Caffeine Consumption]' />
+            <value name='[Deep Sleep Percentage]' />
+            <value name='[Exercise Frequency]' />
+            <value name='[gender Male]' />
+            <value name='[Light Sleep Percentage]' />
+            <value name='[Month]' />
+            <value name='[Rem Sleep Percentage]' />
+            <value name='[Sleep Duration]' />
+            <value name='[Sleep Efficiency]' />
+            <value name='[smoking status Yes]' />
+            <value name='[Wakeup Time Hours]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Sheet1].[age]' />
+              <field name='[Sheet1].[alcohol_consumption]' />
+              <field name='[Sheet1].[awakenings]' />
+              <field name='[Sheet1].[bedtime_hours]' />
+              <field name='[Sheet1].[caffeine_consumption]' />
+              <field name='[Sheet1].[deep_sleep_percentage]' />
+              <field name='[Sheet1].[exercise_frequency]' />
+              <field name='[Sheet1].[gender_Male]' />
+              <field name='[Sheet1].[light_sleep_percentage]' />
+              <field name='[Sheet1].[month]' />
+              <field name='[Sheet1].[rem_sleep_percentage]' />
+              <field name='[Sheet1].[sleep_duration]' />
+              <field name='[Sheet1].[sleep_efficiency]' />
+              <field name='[Sheet1].[smoking_status_Yes]' />
+              <field name='[Sheet1].[wakeup_time_hours]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.078g921191du6x1ebzbti00zxa7m' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:P16:no:A1:P16:0' header='yes' outcome='6'>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='real' name='age' ordinal='1' />
+              <column datatype='real' name='sleep_duration' ordinal='2' />
+              <column datatype='real' name='sleep_efficiency' ordinal='3' />
+              <column datatype='real' name='rem_sleep_percentage' ordinal='4' />
+              <column datatype='real' name='deep_sleep_percentage' ordinal='5' />
+              <column datatype='real' name='light_sleep_percentage' ordinal='6' />
+              <column datatype='real' name='awakenings' ordinal='7' />
+              <column datatype='real' name='caffeine_consumption' ordinal='8' />
+              <column datatype='real' name='alcohol_consumption' ordinal='9' />
+              <column datatype='real' name='exercise_frequency' ordinal='10' />
+              <column datatype='real' name='month' ordinal='11' />
+              <column datatype='real' name='gender_Male' ordinal='12' />
+              <column datatype='real' name='smoking_status_Yes' ordinal='13' />
+              <column datatype='real' name='bedtime_hours' ordinal='14' />
+              <column datatype='real' name='wakeup_time_hours' ordinal='15' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Age]' />
+            <value name='[Alcohol Consumption]' />
+            <value name='[Awakenings]' />
+            <value name='[Bedtime Hours]' />
+            <value name='[Caffeine Consumption]' />
+            <value name='[Deep Sleep Percentage]' />
+            <value name='[Exercise Frequency]' />
+            <value name='[gender Male]' />
+            <value name='[Light Sleep Percentage]' />
+            <value name='[Month]' />
+            <value name='[Rem Sleep Percentage]' />
+            <value name='[Sleep Duration]' />
+            <value name='[Sleep Efficiency]' />
+            <value name='[smoking status Yes]' />
+            <value name='[Wakeup Time Hours]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Sheet1].[age]' />
+              <field name='[Sheet1].[alcohol_consumption]' />
+              <field name='[Sheet1].[awakenings]' />
+              <field name='[Sheet1].[bedtime_hours]' />
+              <field name='[Sheet1].[caffeine_consumption]' />
+              <field name='[Sheet1].[deep_sleep_percentage]' />
+              <field name='[Sheet1].[exercise_frequency]' />
+              <field name='[Sheet1].[gender_Male]' />
+              <field name='[Sheet1].[light_sleep_percentage]' />
+              <field name='[Sheet1].[month]' />
+              <field name='[Sheet1].[rem_sleep_percentage]' />
+              <field name='[Sheet1].[sleep_duration]' />
+              <field name='[Sheet1].[sleep_efficiency]' />
+              <field name='[Sheet1].[smoking_status_Yes]' />
+              <field name='[Sheet1].[wakeup_time_hours]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.078g921191du6x1ebzbti00zxa7m' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:P16:no:A1:P16:0' header='yes' outcome='6'>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='real' name='age' ordinal='1' />
+              <column datatype='real' name='sleep_duration' ordinal='2' />
+              <column datatype='real' name='sleep_efficiency' ordinal='3' />
+              <column datatype='real' name='rem_sleep_percentage' ordinal='4' />
+              <column datatype='real' name='deep_sleep_percentage' ordinal='5' />
+              <column datatype='real' name='light_sleep_percentage' ordinal='6' />
+              <column datatype='real' name='awakenings' ordinal='7' />
+              <column datatype='real' name='caffeine_consumption' ordinal='8' />
+              <column datatype='real' name='alcohol_consumption' ordinal='9' />
+              <column datatype='real' name='exercise_frequency' ordinal='10' />
+              <column datatype='real' name='month' ordinal='11' />
+              <column datatype='real' name='gender_Male' ordinal='12' />
+              <column datatype='real' name='smoking_status_Yes' ordinal='13' />
+              <column datatype='real' name='bedtime_hours' ordinal='14' />
+              <column datatype='real' name='wakeup_time_hours' ordinal='15' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P16:no:A1:P16:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_71C427F14360403C84543ADD4929F89E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_71C427F14360403C84543ADD4929F89E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_71C427F14360403C84543ADD4929F89E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_71C427F14360403C84543ADD4929F89E]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_71C427F14360403C84543ADD4929F89E'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='real' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Age]' />
+                  <value name='[Alcohol Consumption]' />
+                  <value name='[Awakenings]' />
+                  <value name='[Bedtime Hours]' />
+                  <value name='[Caffeine Consumption]' />
+                  <value name='[Deep Sleep Percentage]' />
+                  <value name='[Exercise Frequency]' />
+                  <value name='[gender Male]' />
+                  <value name='[Light Sleep Percentage]' />
+                  <value name='[Month]' />
+                  <value name='[Rem Sleep Percentage]' />
+                  <value name='[Sleep Duration]' />
+                  <value name='[Sleep Efficiency]' />
+                  <value name='[smoking status Yes]' />
+                  <value name='[Wakeup Time Hours]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Sheet1].[age]' />
+                    <field name='[Sheet1].[alcohol_consumption]' />
+                    <field name='[Sheet1].[awakenings]' />
+                    <field name='[Sheet1].[bedtime_hours]' />
+                    <field name='[Sheet1].[caffeine_consumption]' />
+                    <field name='[Sheet1].[deep_sleep_percentage]' />
+                    <field name='[Sheet1].[exercise_frequency]' />
+                    <field name='[Sheet1].[gender_Male]' />
+                    <field name='[Sheet1].[light_sleep_percentage]' />
+                    <field name='[Sheet1].[month]' />
+                    <field name='[Sheet1].[rem_sleep_percentage]' />
+                    <field name='[Sheet1].[sleep_duration]' />
+                    <field name='[Sheet1].[sleep_efficiency]' />
+                    <field name='[Sheet1].[smoking_status_Yes]' />
+                    <field name='[Sheet1].[wakeup_time_hours]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.078g921191du6x1ebzbti00zxa7m' name='Sheet1' table='[Sheet1$]' type='table'>
+                  <columns gridOrigin='A1:P16:no:A1:P16:0' header='yes' outcome='6'>
+                    <column datatype='string' name='F1' ordinal='0' />
+                    <column datatype='real' name='age' ordinal='1' />
+                    <column datatype='real' name='sleep_duration' ordinal='2' />
+                    <column datatype='real' name='sleep_efficiency' ordinal='3' />
+                    <column datatype='real' name='rem_sleep_percentage' ordinal='4' />
+                    <column datatype='real' name='deep_sleep_percentage' ordinal='5' />
+                    <column datatype='real' name='light_sleep_percentage' ordinal='6' />
+                    <column datatype='real' name='awakenings' ordinal='7' />
+                    <column datatype='real' name='caffeine_consumption' ordinal='8' />
+                    <column datatype='real' name='alcohol_consumption' ordinal='9' />
+                    <column datatype='real' name='exercise_frequency' ordinal='10' />
+                    <column datatype='real' name='month' ordinal='11' />
+                    <column datatype='real' name='gender_Male' ordinal='12' />
+                    <column datatype='real' name='smoking_status_Yes' ordinal='13' />
+                    <column datatype='real' name='bedtime_hours' ordinal='14' />
+                    <column datatype='real' name='wakeup_time_hours' ordinal='15' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Less alcohol'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Less alcohol&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sleepy_dataset_cleaned' name='federated.1k139xd0p9ucsz19qbfkq0wb55nr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k139xd0p9ucsz19qbfkq0wb55nr'>
+            <column aggregation='None' caption='Alcohol Consumption (bin)' datatype='integer' name='[Alcohol Consumption (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[alcohol_consumption]' peg='0' size='1' />
+            </column>
+            <column caption='Alcohol Consumption' datatype='real' name='[alcohol_consumption]' role='measure' type='quantitative' />
+            <column-instance column='[sleep_efficiency]' derivation='CountD' name='[ctd:sleep_efficiency:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Alcohol Consumption (bin)]' derivation='None' name='[none:Alcohol Consumption (bin):ok]' pivot='key' type='ordinal' />
+            <column caption='Sleep Efficiency' datatype='real' name='[sleep_efficiency]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[ctd:sleep_efficiency:qk]' field-type='quantitative' max='50' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[ctd:sleep_efficiency:qk]</rows>
+        <cols>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:Alcohol Consumption (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[Alcohol Consumption (bin)]</column>
+          <column>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[Caffeine Consumption (bin)]</column>
+          <column>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[Sleep Efficiency (copy) (bin)]</column>
+          <column>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[smoking status Yes (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{0C0FCC75-DB62-4163-97D3-31ACD027CFFB}' />
+    </worksheet>
+    <worksheet name='Less coffee'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sleepy_dataset_cleaned' name='federated.1k139xd0p9ucsz19qbfkq0wb55nr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k139xd0p9ucsz19qbfkq0wb55nr'>
+            <column aggregation='None' caption='Caffeine Consumption (bin)' datatype='integer' name='[Caffeine Consumption (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[caffeine_consumption]' peg='0' size='1' />
+            </column>
+            <column caption='Caffeine Consumption' datatype='real' name='[caffeine_consumption]' role='measure' type='quantitative' />
+            <column-instance column='[sleep_efficiency]' derivation='CountD' name='[ctd:sleep_efficiency:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Caffeine Consumption (bin)]' derivation='None' name='[none:Caffeine Consumption (bin):ok]' pivot='key' type='ordinal' />
+            <column caption='Sleep Efficiency' datatype='real' name='[sleep_efficiency]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[ctd:sleep_efficiency:qk]</rows>
+        <cols>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:Caffeine Consumption (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{696D9912-022C-4841-970C-C3DD2BD689FB}' />
+    </worksheet>
+    <worksheet name='Our sample'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sleepy_dataset_cleaned' name='federated.1k139xd0p9ucsz19qbfkq0wb55nr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k139xd0p9ucsz19qbfkq0wb55nr'>
+            <column caption='Alcohol Consumption' datatype='real' name='[alcohol_consumption]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol_consumption]' derivation='Avg' name='[avg:alcohol_consumption:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[caffeine_consumption]' derivation='Avg' name='[avg:caffeine_consumption:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[exercise_frequency]' derivation='Avg' name='[avg:exercise_frequency:qk]' pivot='key' type='quantitative' />
+            <column caption='Caffeine Consumption' datatype='real' name='[caffeine_consumption]' role='measure' type='quantitative' />
+            <column caption='Exercise Frequency' datatype='real' name='[exercise_frequency]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='gender Male' datatype='integer' name='[gender_Male]' role='dimension' type='ordinal' />
+            <column-instance column='[gender_Male]' derivation='None' name='[none:gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[smoking_status_Yes]' derivation='None' name='[none:smoking_status_Yes:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='smoking status Yes' datatype='integer' name='[smoking_status_Yes]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:alcohol_consumption:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:caffeine_consumption:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:exercise_frequency:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:gender_Male:ok]'>
+            <groupfilter function='level-members' level='[none:gender_Male:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:smoking_status_Yes:ok]'>
+            <groupfilter function='level-members' level='[none:smoking_status_Yes:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[:Measure Names]</column>
+            <column>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:smoking_status_Yes:ok]</column>
+            <column>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:gender_Male:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[Multiple Values]</rows>
+        <cols>([federated.1k139xd0p9ucsz19qbfkq0wb55nr].[:Measure Names] / [federated.1k139xd0p9ucsz19qbfkq0wb55nr].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{B42917B8-BC65-447E-8148-48AED108FFD2}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sleepy_dataset_cleaned' name='federated.1k139xd0p9ucsz19qbfkq0wb55nr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k139xd0p9ucsz19qbfkq0wb55nr'>
+            <column aggregation='Sum' caption='Alcohol Consumption (copy)' datatype='real' name='[Alcohol Consumption (copy)_683773104335720449]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[alcohol_consumption]' />
+            </column>
+            <column caption='Alcohol Consumption' datatype='real' name='[alcohol_consumption]' role='measure' type='quantitative' />
+            <column caption='Caffeine Consumption' datatype='real' name='[caffeine_consumption]' role='measure' type='quantitative' />
+            <column-instance column='[Alcohol Consumption (copy)_683773104335720449]' derivation='None' name='[none:Alcohol Consumption (copy)_683773104335720449:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[alcohol_consumption]' derivation='Sum' name='[sum:alcohol_consumption:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[caffeine_consumption]' derivation='Sum' name='[sum:caffeine_consumption:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:Alcohol Consumption (copy)_683773104335720449:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:caffeine_consumption:qk]</rows>
+        <cols>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[sum:alcohol_consumption:qk]</cols>
+      </table>
+      <simple-id uuid='{2EFE90DB-27AC-4E23-B0BC-3EAA716BEA68}' />
+    </worksheet>
+    <worksheet name='Stop smoking'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sleepy_dataset_cleaned' name='federated.1k139xd0p9ucsz19qbfkq0wb55nr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k139xd0p9ucsz19qbfkq0wb55nr'>
+            <column-instance column='[deep_sleep_percentage]' derivation='Avg' name='[avg:deep_sleep_percentage:qk]' pivot='key' type='quantitative' />
+            <column caption='Deep Sleep Percentage' datatype='integer' name='[deep_sleep_percentage]' role='measure' type='quantitative' />
+            <column-instance column='[smoking_status_Yes]' derivation='None' name='[none:smoking_status_Yes:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='smoking status Yes' datatype='integer' name='[smoking_status_Yes]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:smoking_status_Yes:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[avg:deep_sleep_percentage:qk]</rows>
+        <cols>[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:smoking_status_Yes:ok]</cols>
+      </table>
+      <simple-id uuid='{40B6FFE0-FF75-4996-A864-B4DE154AFAF0}' />
+    </worksheet>
+    <worksheet name='correlation_matrx'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Correlation_Matrix_sleepy)' name='federated.199ufkt0qpkx4i1gqzy4q01t54yp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.199ufkt0qpkx4i1gqzy4q01t54yp'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <text column='[federated.199ufkt0qpkx4i1gqzy4q01t54yp].[sum:Pivot Field Values:qk]' />
+              <color column='[federated.199ufkt0qpkx4i1gqzy4q01t54yp].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.199ufkt0qpkx4i1gqzy4q01t54yp].[none:Pivot Field Names:nk]</rows>
+        <cols>[federated.199ufkt0qpkx4i1gqzy4q01t54yp].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{453CFD0C-4EA5-4C84-871D-5E86EB7C5B2D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Story_Presentation' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>How to improve your sleep&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f9e9e0' />
+        </style-rule>
+        <style-rule element='story-description'>
+          <format attr='color' value='#000000' />
+          <format attr='background-color' value='#e9ebe0d9' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='background-color' value='#f9a655' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='What actions can be taken to improve your sleep?' captured-sheet='' id='1' />
+                  <story-point caption='Drinking less alcohol?' captured-sheet='Less alcohol' id='2' />
+                  <story-point caption='Drinking less coffe?' captured-sheet='Less coffee' id='3' />
+                  <story-point caption='Maybe stop smoking?' captured-sheet='Stop smoking' id='4' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' h='5602' id='6' story-point-id='1' type-v2='text' w='33268' x='1772' y='51245'>
+          <formatted-text>
+            <run>Which kind of person has bad sleep according to our data?
+</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' h='12448' id='7' story-point-id='1' type-v2='text' w='33268' x='2854' y='18050'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Project objective:</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>How to have a good-night sleep? We want to determine the most important factors, which have an impact on our sleep.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' h='22407' id='8' story-point-id='1' type-v2='text' w='33268' x='36909' y='17946'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Our method: We used a dataset which was part of a study conducted in the UK by a research team from The University of Oxfordshire. The sample comes from the local community and the data was collected with the help of a sleep monitoring technique, called polysomnography. But also making use of self-reported surveys.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' h='3112' id='9' story-point-id='1' type-v2='text' w='31791' x='1870' y='47614'>
+          <formatted-text>
+            <run>We want to answer some questions</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{FE40B378-652D-47C0-B002-5B2B67D5AC6F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Less alcohol'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ADDFB426-CDB0-4EA6-ABF8-E0EB09F0D2C0}' />
+    </window>
+    <window class='worksheet' name='Less coffee'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9D705232-6CC4-432C-8151-6EBD04C896A3}' />
+    </window>
+    <window class='worksheet' name='Stop smoking'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:smoking_status_Yes:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7C6BB9A1-7AF5-4DEC-94E9-21088107D6AC}' />
+    </window>
+    <window class='worksheet' name='Our sample'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='9' param='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{16BB9B45-3FDA-44E3-BEA8-52A043112341}' />
+    </window>
+    <window class='worksheet' name='correlation_matrx'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.199ufkt0qpkx4i1gqzy4q01t54yp].[sum:Pivot Field Values:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{282B43CB-DB08-4F5E-92FF-1598E4DC4120}' />
+    </window>
+    <window class='dashboard' name='Story_Presentation'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{BFF8AB69-F831-40C8-9708-0AF6569B2861}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1k139xd0p9ucsz19qbfkq0wb55nr].[none:Alcohol Consumption (copy)_683773104335720449:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{743DC9CF-99A0-496B-BE94-B09E3CA90958}' />
+    </window>
+  </windows>
+</workbook>
